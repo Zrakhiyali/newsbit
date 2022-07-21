@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onlineshop</title>
+</head>
+<body>
+    <section class="app">
+        <header>
+            <nav class="header">
+                <img src="images/logo-black.png"  class="logo" alt="">
+           <button class="menu" onclick="showMenu()">  <i class="fa fa-bars"></i></button> 
+              <nav class="menu-bar">
+            
+                <nav class="links">
+                <ul class="headerMenu show" id="Menu"><li><a href="#">NEWS</a></li>
+                    <li><a href="#">GUIDES&ANALYTIS</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">EXPLANTE</a></li>
+                    <li><a href="#">ICON CALENDER</a></li>
+                </ul>
+                </nav>
+            </nav>
+        </header>
+  <section class="content"></section>
+    </section>
+
+    <script>
+function showMenu(){
+    var menu=document.getElementById("Menu");
+    if(menu.className==="headerMenu")
+  {  menu.className+=" show";
+  }
+    else
+ 
+ {   menu.className="headerMenu";
+}
+    
+    }
+
+    </script>
+<footer></footer>
+
+</body>
+</html>
